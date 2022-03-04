@@ -10,5 +10,5 @@ jobs:
   jsupgrade:
     uses: emteknetnz/github-actions-ci-cd/.github/workflows/update-js-deps.yml@pulls/main/update-js-deps
 
-# Trigger workflow .
+# Trigger workflow ..
   
