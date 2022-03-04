@@ -7,8 +7,8 @@ on:
       - 4
 
 jobs:
-  ci:
-    uses: emteknetnz/github-actions-ci-cd/.github/workflows/js-upgrade.yml@dynamic
+  jsupgrade:
+    uses: emteknetnz/github-actions-ci-cd/.github/workflows/update-js-deps.yml@pulls/main/update-js-deps
 
 # Trigger workflow .
   
